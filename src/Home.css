@@ -1,0 +1,12 @@
+#prod_name{
+    text-align: center;
+    font-size: 10pc;
+    color:rgb(94, 73, 52);
+}
+
+.body{
+    background-image: url(down1.png);
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+}
