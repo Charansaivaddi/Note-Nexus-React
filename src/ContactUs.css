@@ -1,25 +1,66 @@
-.contac_table {
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  #contact_form {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .contac_table {
     width: 50%;
     margin: auto;
-}
-
-.contac_table tr {
-    margin-bottom: 10px;
-}
-
-.contac_table td {
-    padding: 5px;
-    text-align: left;
-}
-
-button {
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contac_table tr, .contac_table button {
+    animation: slideIn 1s ease-out;
+    animation-delay: 0.2s;
+  }
+  
+  .contac_table td {
     padding: 10px;
+    text-align: left;
+  }
+  
+  .contac_table input,
+  .contac_table textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
     background-color: #4CAF50;
     color: white;
+    padding: 10px 15px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-}
-
-button:hover {
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
     background-color: #45a049;
-}
+  }
+  

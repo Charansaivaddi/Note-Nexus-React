@@ -14,7 +14,7 @@ const ContactUs = () => {
     return (
         <div>
             <h1 align='center'>Contact us</h1>
-            <form>
+            <form id="contact_form">
                 <table align='center' className='contac_table'>
                     <tr>
                         <td align='right'>
