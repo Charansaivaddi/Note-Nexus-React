@@ -1,0 +1,25 @@
+.contac_table {
+    width: 50%;
+    margin: auto;
+}
+
+.contac_table tr {
+    margin-bottom: 10px;
+}
+
+.contac_table td {
+    padding: 5px;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
