@@ -3,15 +3,19 @@
     color: white;
     padding: 10px;
     text-align: center;
-  }
+}
   
-  .menu_bar a {
+.menu_bar a {
     text-decoration: none;
     color: white;
     padding: 10px;
     margin: 0 10px;
-  }
+}
   
-  .menu_bar a:hover {
+.menu_bar a:hover {
     background-color: #555;
-  }
+}
+
+.menu_bar a:active {
+    color: transparent;
+}

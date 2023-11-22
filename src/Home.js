@@ -6,7 +6,7 @@ const Home = () => {
     <div className='body'>
       <hr />
       <section id="body">
-        <p id="prod_name" href="#home">
+        <p id="prod_name" href="#body">
           Note Nexus
         </p>
       </section>

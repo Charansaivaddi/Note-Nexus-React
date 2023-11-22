@@ -2,11 +2,25 @@
     text-align: center;
     font-size: 10pc;
     color:rgb(94, 73, 52);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#prod_name:active{
+    color:transparent;
+}
+
+#prod_name:hover {
+    color: rgb(67, 52, 35);
+    background-color: rgba(109, 97, 81, 0.248);
 }
 
 .body{
     background-image: url(down1.png);
-    background-position: 50%;
-    background-size: 100%;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
 }

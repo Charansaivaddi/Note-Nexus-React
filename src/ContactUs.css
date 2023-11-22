@@ -24,10 +24,11 @@
     width: 50%;
     margin: auto;
     border-collapse: collapse;
-    background-color: #f0f0f0; /* Light grey background */
+    background-color: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    background: linear-gradient(0deg, #87CEEB, #B0E0E6);
   }
   
   .contac_table tr, .contac_table button {
