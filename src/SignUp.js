@@ -7,6 +7,8 @@ const clear=()=>{
   document.getElementById('pword').value='';
 }
 
+constructor(props);
+
 const SignUp = () => {
   return (
       <div className='form'>
